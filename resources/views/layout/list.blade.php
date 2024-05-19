@@ -4,6 +4,10 @@
         <title>@yield('title', 'My App')</title>
     </head>
     <body>
+        <header>
+            @include('component.header')
+        </header>
+
         <h1>List Produk</h1>
         <div class ="container">
             <main>
@@ -11,5 +15,9 @@
             </main>
 
         </div>
+
+        <footer>
+            @include('components.footer')
+        </footer>
     </body>
 </html>
